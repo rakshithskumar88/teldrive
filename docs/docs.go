@@ -1,8 +1,6 @@
-package ui
+package docs
 
-import (
-	"embed"
-)
+import "embed"
 
 //go:embed all:dist
 var StaticFS embed.FS
