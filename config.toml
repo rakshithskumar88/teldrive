@@ -1,9 +1,9 @@
 [db]
-  data-source = ""
-  prepare-stmt = true
+  data-source = "postgresql://postgres:[Teledrive@123$]@db.fluqdaatfomcfsjgfsfo.supabase.co:5432/postgres"
+  prepare-stmt = false
   log-level = 1
   [db.pool]
-    enable = true
+    enable = false
     max-idle-connections = 25
     max-lifetime = "10m"
     max-open-connections = 25
@@ -12,8 +12,8 @@
   enable = true
 
 [jwt]
-  allowed-users = [""]
-  secret = ""
+  allowed-users = ["@rakshithskumar88"]
+  secret = "e4713ce3b1b47891f04ec6a562eb3683"
   session-time = "30d"
 
 [log]
@@ -27,8 +27,8 @@
   write-timeout = "1h"
 
 [tg]
-  app-hash = ""
-  app-id = 0
+  app-hash = "1b8d75d0cd2345dba2ab99bdd2fbb428"
+  app-id = "21021235"
   app-version = "4.6.3 K"
   bg-bots-limit = 5
   device-model = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0"
